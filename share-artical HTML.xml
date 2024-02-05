@@ -1,0 +1,15 @@
+<div class='share-artical'>
+   <div class='share-btns share-btns--discolor'><!-- Share buttons by zkreations v1.0.1 -->
+      <b:with value='&quot;share-btns__item share-&quot;' var='shareCss'>
+         <a expr:class='data:shareCss + &quot;facebook&quot;' expr:href='params(&quot;//facebook.com/sharer/sharer.php&quot;,{u: data:post.url.canonical})'>Compartir</a>
+         <a expr:class='data:shareCss + &quot;twitter&quot;' expr:href='params(&quot;//twitter.com/intent/tweet&quot;,{text: data:post.title, url: data:post.url.canonical})'/>
+         <a expr:class='data:shareCss + &quot;pinterest&quot;' expr:href='params(&quot;//pinterest.com/pin/create/button/&quot;,{url: data:post.url.canonical, media: data:post.firstImageUrl})'/>
+         <a expr:class='data:shareCss + &quot;tumblr&quot;' expr:href='params(&quot;https://www.tumblr.com/widgets/share/tool/preview&quot;,{canonicalUrl: data:post.url.canonical, caption: data:post.snippet, posttype: &quot;link&quot;, title: data:post.title})'/>
+         <a expr:class='data:shareCss + &quot;whatsapp&quot;' expr:href='params(&quot;whatsapp://send&quot;,{text: data:post.url.canonical})'/>
+      </b:with>
+   </div>
+   <script type='text/javascript'>//<![CDATA[
+var h=document.querySelector(".share-btns").children;i=0;for(t=h.length;i<t;i++)h[i].onclick=function(a){a.preventDefault();window.open(this.href,"btn-"+i,"width=600,height=480,left="+(screen.width/2-300)+",top="+(screen.height/2-240))};
+   //]]></script>
+
+        </div>

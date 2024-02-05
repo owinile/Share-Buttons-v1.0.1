@@ -1,0 +1,74 @@
+/*!
+* Share Buttons v1.0.1
+* by zkreations
+*/
+/*woff Base64 (fontastic)*/
+[class*=" share-"]:before,[class^=share-]:before,[data-icon]:before{font-family:share-daniel!important;font-style:normal!important;font-weight:400!important;font-variant:normal!important;text-transform:none!important;speak:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}@font-face{font-family:share-daniel;src:url(data:application/font-woff;charset=utf-8;base64,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) format("woff");font-weight:400;font-style:normal}[data-icon]:before{content:attr(data-icon)}.share-facebook:before{content:"\61"}.share-googleplus:before{content:"\62"}.share-pinterest:before{content:"\63"}.share-twitter:before{content:"\64"}.share-tumblr:before{content:"\65"}.share-telegram:before{content:"\66"}.share-send:before{content:"\67"}.share-vk:before{content:"\68"}.share-linkedin:before{content:"\69"}.share-whatsapp:before{content:"\6a"}
+/*contenedor*/
+.share-btns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-size: 16px;
+    padding: 1em 0;
+    clear: both;
+}
+/*Estilo de los botones*/
+.share-btns__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 2px;
+    font-size: 1em;
+    padding: .4em .6em;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.2);
+    font-weight: 400;
+    -webkit-transition: color .5s, -webkit-transform .5s;
+    transition: color .5s, -webkit-transform .5s;
+    transition: transform .5s, color .5s;
+    transition: transform .5s, color .5s, -webkit-transform .5s;
+    border: 4px solid rgba(255, 255, 255, 0.05);
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+}
+/*Hover*/
+.share-btns__item:hover {
+    -webkit-transform: translateY(-.5em);
+            transform: translateY(-.5em);
+    -webkit-transition: color .1s, -webkit-transform .1s;
+    transition: color .1s, -webkit-transform .1s;
+    transition: transform .1s, color .1s;
+    transition: transform .1s, color .1s, -webkit-transform .1s;
+    color: #fff;
+}
+/*Se agrega martin solo al primer 
+icono ya que contiene texto*/
+.share-btns__item:first-child::before {margin-right: .5em;}
+/*Colores por defecto*/
+.share-facebook {background-color: #475993;}
+.share-googleplus {background-color: #263238;}
+.share-twitter {background-color: #00BCD4;}
+.share-pinterest {background-color: #bb262b;}
+.share-tumblr {background-color: #314358;}
+.share-telegram {background-color: #279fd3;}
+.share-vk {background-color: #4c75a3;}
+.share-linkedin {background-color: #225982;}
+.share-whatsapp {background-color: #4CAF50;}
+.share-send {background-color: #9E9E9E;}
+/*Decoloramos los botones*/
+.share-btns--discolor .share-btns__item {
+    background-color: #F1F0F6;
+    border-color: rgba(0, 0, 0, 0.03);
+    color: rgba(0, 0, 0, 0.5);
+}
+/*Hover si el boton esta decolorado*/
+.share-btns--discolor .share-btns__item:hover {color: rgba(0, 0, 0, 0.75);}
